@@ -1,0 +1,26 @@
+/* PodcastsStyling.css */
+/* Adjust the styling of the PodcastsPage component */
+
+  
+  .title.podcast-one {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+    
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .back-to-home:hover {
+    color: #ff6b6b;
+  }

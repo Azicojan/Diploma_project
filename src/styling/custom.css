@@ -1,0 +1,269 @@
+/* custom.css */
+/* Change link color and button background color on hover with transition */
+.navbar-menu a.navbar-item 
+ {
+  transition: color 0.3s, background-color 0.3s; /* Add transitions for color and background-color */
+}
+
+.navbar-menu a.navbar-item:hover
+ {
+  color: orange !important; /* Make the text orange */
+  background-color: transparent !important; /* Keep the background transparent */
+}
+.navpanel{
+  position: sticky;
+  top:0;
+  z-index: 100;
+
+}
+.footer{
+  height: 300px;
+}
+section{
+  background-color: rgb(228, 228, 228);
+  height: 700px;
+}
+.navbar-brand{
+  height: 100px;
+  width: 100%;
+  
+}
+
+.navbar-end{
+ margin: 0 auto;
+  
+}
+.navbar-item{
+  color: white;
+  width: 150px;
+  border-right: 1px solid gray ;
+  border-left: 1px solid gray ;
+  
+  
+}
+.navbar-button{
+  margin: 25px;
+  
+}
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo{
+margin:10px 30px 0 250px;
+height:90px;
+width: 120px;
+
+}
+.navbar-dropdown{
+  background-color: rgb(85, 85, 85);
+}
+.navbar-link{
+  color:white;
+}
+/* Change background color of the 'Services' link */
+.navbar-item .services-link {
+  background-color: rgb(65, 65, 65) !important;
+
+}
+.navbar-link:not(.is-arrowless)::after {
+  border-color: #f2f2f5;
+  margin-top: -0.375em;
+  right: 1.125em;
+}
+
+
+
+
+.navbar-menu{
+  height: 60px;
+  background-color: rgb(65, 64, 64);
+    
+}
+  
+  
+  .custom-button:hover {
+    transition: color 0.3s;
+    color: orange !important; /* Make the text orange */
+    background-color: rgb(133, 133, 133);
+  }
+  
+  .navbar-link:hover{
+    color: orange !important; /* Make the text orange */
+    transition: 0.3s;
+    
+  }
+  .navbar-link{
+    margin-left: 20px;
+  }
+
+  .block {
+    padding: 40px;
+    color: white;
+  }
+  
+  .block-content {
+    max-width: 700px;
+    margin: 50px auto;
+    
+    text-align: left;
+  }
+  .text1{
+    font-size: 18px;
+    width: 700px;
+  }
+  .block-advertising {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-cottonbro.jpg);
+    background-size: cover;
+    background-position: center 30%;
+    
+    height: 550px;
+  }
+  
+  .block-why-choose-us {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color:rgb(51, 51, 51)
+  }
+
+  /* custom.css */
+.columns.is-custom-gap {
+  gap: 30px; /* Adjust the gap size as needed */
+}
+
+  /* custom.css */
+.is-flex {
+  align-items: left; /* Adjust this property to control vertical alignment */
+  height: 500px; /* Set the desired height */
+  color: white;
+  
+}
+
+/* custom.css */
+.custom-background-1 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/relationships-therapy.jpg);
+  background-size: cover;
+  background-position: center 30%;
+  
+}
+
+.custom-background-2 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/stock-photo-psychologist.jpg);
+  background-size: cover;
+  background-position: center 30%;
+  
+}
+
+.custom-background-3 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/children-therapy.jpg);
+  background-size: cover;
+  background-position: center 30%;
+  
+}
+.social-icon{
+  color:white
+}
+
+.social-icon:hover
+ {
+  color: orange !important; /* Make the text orange */
+  transition: color 0.3s;
+}
+
+/* custom.css */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f0a513;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+  background-color: #d08910;
+}
+
+
+/* custom.css */
+.appointment-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it's on top of other content */
+}
+
+.appointment-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  width: 80%;
+  width:500px;
+  height: 620px;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(253, 253, 253);
+}
+
+.label {
+  font-weight: 500;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.button.is-primary {
+  margin-top: 10px;
+}
+.appointment-form-image{
+  
+  background-image: url(../images/pexels-timur-weber.jpg);
+  width:500px;
+  height:620px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 10px 10px 0;
+}
+
+/* custom.css */
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
